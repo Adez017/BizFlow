@@ -199,6 +199,7 @@ function AppContent() {
             <Route path="/faqs" element={<FAQ />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms-of-use" element={<TermsOfUsePage />} />
+            <Route path="/terms" element={<TermsOfUsePage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
